@@ -8,7 +8,11 @@ The attackers were able to gain access into the company's network by using targe
 
 Once the attackers gained access, they deployed their ransomware, which encrypted critical files. The company was unable to access critical patient data, causing major disruptions in their business operations. The company was forced to shut down their computer systems and contact several organizations to report the incident and receive technical assistance.
 
-# Scenario 2 Entry #2
+---
+
+# Scenario 2
+
+## Entry #2
 
 You are a level one security operations center (SOC) analyst at a financial services company. You have received an alert about a suspicious file being downloaded on an employee's computer.
 
@@ -16,15 +20,33 @@ You investigate this alert and discover that the employee received an email cont
 
 You retrieve the malicious file and create a SHA256 hash of the file. You might recall from a previous course that a hash function is an algorithm that produces a code that can't be decrypted. Hashing is a cryptographic method used to uniquely identify malware, acting as the file's unique fingerprint.
 
-Now that you have the file hash, you will use VirusTotal to uncover additional IoCs that are associated with the file.
-
 **SHA256 file hash:**  
 `54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b`
 
-# Scenario 2 Entry #3
+---
+
+## Entry #3
 
 You are a level-one security operations center (SOC) analyst at a financial services company. Previously, you received a phishing alert about a suspicious file being downloaded on an employee's computer. After investigating the email attachment file's hash, the attachment has already been verified malicious. Now that you have this information, you must follow your organization's process to complete your investigation and resolve the alert.
 
 Your organization's security policies and procedures describe how to respond to specific alerts, including what to do when you receive a phishing alert.
 
 In the playbook, there is a flowchart and written instructions to help you complete your investigation and resolve the alert. At the end of your investigation, you will update the alert ticket with your findings about the incident.
+
+---
+
+# Scenario 3
+
+## Entry #4
+
+You recently joined the security team as a level-one security operations center (SOC) analyst at a mid-sized retail company. Along with its physical store locations, your company also conducts operations in e-commerce, which account for 80% of its sales.
+
+You are spending your first week of training becoming familiar with the company's security processes and procedures. Recently, the company experienced a major security incident involving a data breach of over one million users. Because this was a recent and major security incident, your team is working to prevent incidents like this from happening again. This breach happened before you began working at the company. You have been asked to review the final report.
+
+---
+
+# Scenario 4
+
+## Entry #5
+
+You are a security analyst working at the e-commerce store Buttercup Games. You've been tasked with identifying whether there are any possible security issues with the mail server. To do so, you must explore any failed SSH logins for the root account.
